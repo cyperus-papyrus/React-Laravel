@@ -1,0 +1,205 @@
+{
+  "company": {
+    "ceo": [
+      {
+        "id": 1,
+        "name": "Иван Иванов",
+        "avatar": "/avatars/ivan_ivanov.jpg",
+        "position": "Генеральный директор"
+      },
+      {
+        "id": 2,
+        "name": "Петр Петров",
+        "avatar": "/avatars/petr_petrov.jpg",
+        "position": "Финансовый директор"
+      }
+    ],
+    "employees": [
+      {
+        "id": 101,
+        "name": "Сергей Петров",
+        "avatar": "/avatars/sergey_petrov.jpg",
+        "position": "Начальник производства",
+        "subordinates": [
+          {
+            "id": 103,
+            "name": "Анна Сидорова",
+            "avatar": "/avatars/anna_sidorova.jpg",
+            "position": "Начальник цеха 1",
+            "subordinates": [
+              { "id": 200, "name": "Иван Иванов", "position": "Старший токарь" },
+              { "id": 201, "name": "Василий Петров", "position": "Токарь" }
+            ]
+          },
+          {
+            "id": 104,
+            "name": "Дмитрий Козлов",
+            "avatar": "/avatars/dmitry_kozlov.jpg",
+            "position": "Начальник цеха 2"
+          },
+          {
+            "id": 1103,
+            "name": "Анна Сидорова",
+            "avatar": "/avatars/anna_sidorova.jpg",
+            "position": "Начальник цеха 1",
+            "subordinates": [
+              { "id": 200, "name": "Иван Иванов", "position": "Старший токарь" },
+              { "id": 201, "name": "Василий Петров", "position": "Токарь" }
+            ]
+          },
+          {
+            "id": 1104,
+            "name": "Дмитрий Козлов",
+            "avatar": "/avatars/dmitry_kozlov.jpg",
+            "position": "Начальник цеха 2"
+          },
+          {
+            "id": 2103,
+            "name": "Анна Сидорова",
+            "avatar": "/avatars/anna_sidorova.jpg",
+            "position": "Начальник цеха 1",
+            "subordinates": [
+              { "id": 200, "name": "Иван Иванов", "position": "Старший токарь" },
+              { "id": 201, "name": "Василий Петров", "position": "Токарь" }
+            ]
+          },
+          {
+            "id": 2104,
+            "name": "Дмитрий Козлов",
+            "avatar": "/avatars/dmitry_kozlov.jpg",
+            "position": "Начальник цеха 2"
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "name": "Николай Козлов",
+        "avatar": "/avatars/nikolay_kozlov.jpg",
+        "position": "Заместитель финансового директора"
+      },
+      {
+        "id": 102,
+        "name": "Елена Иванова",
+        "avatar": "/avatars/elena_ivanova.jpg",
+        "position": "Главный бухгалтер",
+        "subordinates": [
+          {
+            "id": 105,
+            "name": "Мария Петрова",
+            "avatar": "/avatars/maria_petrova.jpg",
+            "position": "Бухгалтер"
+          },
+          {
+            "id": 106,
+            "name": "Алексей Смирнов",
+            "avatar": "/avatars/alexey_smirnov.jpg",
+            "position": "Главный экономист"
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "name": "Андрей Кузнецов",
+        "avatar": "/avatars/andrey_kuznetsov.jpg",
+        "position": "Главный инженер",
+        "subordinates": [
+          {
+            "id": 108,
+            "name": "Ольга Иванова",
+            "avatar": "/avatars/olga_ivanova.jpg",
+            "position": "Инженер-проектировщик"
+          },
+          {
+            "id": 109,
+            "name": "Василий Петров",
+            "avatar": "/avatars/vasily_petrov.jpg",
+            "position": "Инженер-технолог"
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "name": "Светлана Сидорова",
+        "avatar": "/avatars/svetlana_sidorova.jpg",
+        "position": "Заместитель генерального директора"
+      },
+
+      {
+        "id": 141,
+        "name": "Сергей Петров",
+        "avatar": "/avatars/sergey_petrov.jpg",
+        "position": "Начальник производства",
+        "subordinates": [
+          {
+            "id": 123,
+            "name": "Анна Сидорова",
+            "avatar": "/avatars/anna_sidorova.jpg",
+            "position": "Начальник цеха 1",
+            "subordinates": [
+              { "id": 220, "name": "Иван Иванов", "position": "Старший токарь" },
+              { "id": 221, "name": "Василий Петров", "position": "Токарь" }
+            ]
+          },
+          {
+            "id": 124,
+            "name": "Дмитрий Козлов",
+            "avatar": "/avatars/dmitry_kozlov.jpg",
+            "position": "Начальник цеха 2"
+          }
+        ]
+      },
+      {
+        "id": 121,
+        "name": "Николай Козлов",
+        "avatar": "/avatars/nikolay_kozlov.jpg",
+        "position": "Заместитель финансового директора"
+      },
+      {
+        "id": 122,
+        "name": "Елена Иванова",
+        "avatar": "/avatars/elena_ivanova.jpg",
+        "position": "Главный бухгалтер",
+        "subordinates": [
+          {
+            "id": 125,
+            "name": "Мария Петрова",
+            "avatar": "/avatars/maria_petrova.jpg",
+            "position": "Бухгалтер"
+          },
+          {
+            "id": 126,
+            "name": "Алексей Смирнов",
+            "avatar": "/avatars/alexey_smirnov.jpg",
+            "position": "Главный экономист"
+          }
+        ]
+      },
+      {
+        "id": 127,
+        "name": "Андрей Кузнецов",
+        "avatar": "/avatars/andrey_kuznetsov.jpg",
+        "position": "Главный инженер",
+        "subordinates": [
+          {
+            "id": 128,
+            "name": "Ольга Иванова",
+            "avatar": "/avatars/olga_ivanova.jpg",
+            "position": "Инженер-проектировщик"
+          },
+          {
+            "id": 129,
+            "name": "Василий Петров",
+            "avatar": "/avatars/vasily_petrov.jpg",
+            "position": "Инженер-технолог"
+          }
+        ]
+      },
+      {
+        "id": 120,
+        "name": "Светлана Сидорова",
+        "avatar": "/avatars/svetlana_sidorova.jpg",
+        "position": "Заместитель генерального директора"
+      }
+    ]
+  }
+}
